@@ -1,25 +1,30 @@
-# ctfs
+# ctf
 
-Capture the flag writeups, notes, and certification progress.
+Capture-the-flag and security-training writeups, study notes, and certification
+progress collected in one monorepo.
 
-## Structure
+## Platforms
 
-```
-tryhackme/
-  rooms/
-  certs/
-hackthebox/
-  boxes/
-  challenges/
-  certs/
-```
+| Directory | Contents |
+| --- | --- |
+| [`hackthebox/`](hackthebox/README.md) | Academy modules, retired boxes, and certification preparation |
+| [`tryhackme/`](tryhackme/README.md) | Rooms, learning paths, and progress tracking |
 
-Writeups are markdown files named after the room, box, or challenge. Certification notes and progress live in `certs/`.
+Each directory retains the history and README from its former standalone
+repository. New material belongs here; the former repositories are read-only
+migration sources.
 
-## Adding a writeup
+Only publish material that may be disclosed under the platform's rules. Never
+commit live flags, credentials, private keys, customer data, or spoilers for
+active machines and events.
 
-One markdown file per room/box/challenge. Include the platform difficulty, date completed, and any tools or techniques worth noting.
+## Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for organization and disclosure rules.
 
 ## License
 
-MIT
+Original notes, writeups, and code are available under the
+[MIT License](LICENSE). Platform names, challenge descriptions, screenshots,
+and other third-party materials remain the property of their respective
+owners.
